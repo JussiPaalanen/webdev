@@ -121,3 +121,21 @@ main img {
     color: gray;
     margin: 0.25rem 0 0.75rem;
 }
+
+.support-page .support-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.support-page .contact {
+    padding-left: 2rem;
+}
+
+.support-page .map img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    display: block;
+}
