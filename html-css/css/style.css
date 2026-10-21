@@ -1,0 +1,123 @@
+body {
+    background-color:bisque;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: grid;
+    background-color: burlywood;    
+    align-items: center;        
+    padding: 2rem;
+    
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+}
+
+header nav {
+    justify-self: end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}   
+
+header h2 {
+    text-align: center;
+    margin: 0;
+    
+}
+
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 3rem;
+    
+}
+
+header nav a {
+    text-decoration: none;
+    color: black
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+header img {
+    justify-self: start;
+    left: 1rem;
+    width: 60px;
+    height: auto;
+    flex-shrink: 0;
+    
+}
+
+
+
+main h1 {
+    text-align: center;
+}
+
+main h4 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    padding: 0 20rem;
+
+}
+
+main img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+}
+
+.product-page main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: left;
+}
+
+.product-page .banner {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 0 1rem;
+}
+
+.product-page .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.product-page .card {
+    background-color: gainsboro;
+    padding: 1rem;
+}
+
+.product-page .card h3 {
+    margin: 0 0 0.75rem;
+}
+
+.product-page .card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.product-page .caption {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: gray;
+    margin: 0.25rem 0 0.75rem;
+}
