@@ -13,7 +13,10 @@ as the course material asks. Upload the module folders to users.metropolia.fi an
 - JS module 4: https://users.metropolia.fi/~jusspaal/js-4/
 - JS module 5: https://users.metropolia.fi/~jusspaal/js-5/
 
-Itselläni on ongelma, että webdiskiin ladatut tiedostot eivät tule vielä näkyviin users.metropolia.fi sivulla.
+- Github pages: https://jussipaalanen.github.io/webdev/html-css/index.html
+                https://jussipaalanen.github.io/webdev/html-css/screenshots.html
+
+Itselläni on ongelma, että webdiskiin ladatut tiedostot eivät tule vielä näkyviin users.metropolia.fi sivulla. Selvitän asiaa.
 
 <!-- metropolia:progress:start -->
 
