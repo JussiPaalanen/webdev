@@ -1,15 +1,16 @@
 body {
-    background-color:bisque;
+    font-family: "Nunito", Arial, sans-serif;
+    background-color: bisque;
     padding: 0;
     margin: 0;
 }
 
 header {
     display: grid;
-    background-color: burlywood;    
-    align-items: center;        
+    background-color: burlywood;
+    align-items: center;
     padding: 2rem;
-    
+
     grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
 }
 
@@ -18,35 +19,31 @@ header nav {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    
-}   
-
-header h2 {
-    text-align: center;
-    margin: 0;
-    
 }
 
+header .site-title {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 
 header nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; 
+    display: flex;
     gap: 3rem;
-    
 }
 
 header nav a {
     text-decoration: none;
-    color: black
+    color: black;
 }
 
 header nav a:hover {
     text-decoration: underline;
 }
-
-
 
 header img {
     justify-self: start;
@@ -54,21 +51,16 @@ header img {
     width: 60px;
     height: auto;
     flex-shrink: 0;
-    
 }
-
-
 
 main h1 {
     text-align: center;
 }
 
-main h4 {
+main .intro {
     text-align: center;
-    padding: 0;
     margin: 0;
     padding: 0 20rem;
-
 }
 
 main img {
@@ -78,6 +70,8 @@ main img {
     max-width: 100%;
     height: auto;
 }
+
+/* Product page */
 
 .product-page main {
     max-width: 1000px;
@@ -104,6 +98,7 @@ main img {
     padding: 1rem;
 }
 
+.product-page .card h2,
 .product-page .card h3 {
     margin: 0 0 0.75rem;
 }
@@ -118,9 +113,11 @@ main img {
 .product-page .caption {
     font-size: 0.75rem;
     font-style: italic;
-    color: gray;
+    color: #505050; /* contrast 5.6:1 on gainsboro */
     margin: 0.25rem 0 0.75rem;
 }
+
+/* Support page */
 
 .support-page .support-content {
     display: grid;
@@ -133,9 +130,31 @@ main img {
     padding-left: 2rem;
 }
 
+.support-page .contact h1 {
+    text-align: left;
+    margin-top: 0;
+}
+
 .support-page .map img {
     width: 100%;
     max-width: 350px;
     height: auto;
     display: block;
+    margin: 0;
+}
+
+/* Screenshots page */
+
+pre {
+    background-color: gainsboro;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+/* Small screens */
+
+@media (max-width: 900px) {
+    main .intro {
+        padding: 0 1rem;
+    }
 }
