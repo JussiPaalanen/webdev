@@ -119,6 +119,10 @@ main img {
 
 /* Support page */
 
+.support-page .map {
+    padding-left: 2rem;
+}
+
 .support-page .support-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
