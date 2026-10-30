@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yritys X – Kuvakaappaukset</title>
-    <meta name="description" content="Sivuston kuvakaappaukset ja käytetty fontti.">
+    <title>Yritys X – Tarkistusten kuvakaappaukset</title>
+    <meta name="description" content="Tarkistusten kuvakaappaukset ja fontin käyttöönotto.">
     <link rel="icon" href="data:,">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,26 +26,30 @@
     </header>
 
     <main>
-        <h1>Kuvakaappaukset</h1>
+        <h1>Tarkistusten kuvakaappaukset</h1>
 
-        <h2>Käytetty fontti</h2>
-        <p>Sivuston fontti on Nunito (Google Fonts). Fontti on määritelty CSS:ssä näin:</p>
+        <h2>Fontin käyttöönotto</h2>
+        <p>Sivuston fontti on Nunito (Google Fonts). Fontti on otettu käyttöön HTML:n <code>&lt;head&gt;</code>-osassa:</p>
+        <pre><code>&lt;link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&amp;display=swap" rel="stylesheet"&gt;</code></pre>
+        <p>Ja CSS:ssä:</p>
         <pre><code>body {
     font-family: "Nunito", Arial, sans-serif;
 }</code></pre>
         <p>Lähde: <a href="https://fonts.google.com/specimen/Nunito">Nunito – Google Fonts</a></p>
 
-        <h2>Etusivu (index.html)</h2>
-        <img src="screenshots/index-desktop.png" alt="Etusivu työpöytänäkymässä">
-        <img src="screenshots/index-mobile.png" alt="Etusivu mobiilinäkymässä">
+        <h2>WAVE (kontrasti)</h2>
+        <img src="screenshot2.jpg" alt="WAVE-tulos">
 
-        <h2>Tuotteet (product.html)</h2>
-        <img src="screenshots/product-desktop.png" alt="Tuotesivu työpöytänäkymässä">
-        <img src="screenshots/product-mobile.png" alt="Tuotesivu mobiilinäkymässä">
+        <h2>Lighthouse</h2>
+        <img src="screenshot3.jpg" alt="Lighthouse-tulos">
+        
 
-        <h2>Tuki (support.html)</h2>
-        <img src="screenshots/support-desktop.png" alt="Tukisivu työpöytänäkymässä">
-        <img src="screenshots/support-mobile.png" alt="Tukisivu mobiilinäkymässä">
+        <h2>HTML-validointi (W3C)</h2>
+        <img src="screenshot4.jpg" alt="HTML-validoinnin tulos">
+        
+
+        <h2>CSS-validointi (W3C)</h2>
+        <img src="screenshot5.jpg" alt="CSS-validoinnin tulos">
     </main>
 </body>
 </html>
