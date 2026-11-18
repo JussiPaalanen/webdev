@@ -16,7 +16,6 @@ as the course material asks. Upload the module folders to users.metropolia.fi an
 - Github pages: https://jussipaalanen.github.io/webdev/html-css/index.html
                 https://jussipaalanen.github.io/webdev/html-css/screenshots.html
 
-Itselläni on ongelma, että webdiskiin ladatut tiedostot eivät tule vielä näkyviin users.metropolia.fi sivulla. Selvitän asiaa.
 
 <!-- metropolia:progress:start -->
 
@@ -64,5 +63,6 @@ _This list is updated automatically by the Metropolia ICT extension._
 - 5. Picture cards: ✔ completed, 5/5 test points (`js-4/t5/5.js`)
 - 6. Button click: ✔ completed, 1/1 test points (`js-4/t6/6.js`)
 - 7. Hover effect: ✔ completed, 2/2 test points (`js-4/t7/7.js`)
+- 8. Calculator: ✘ not completed yet, 0/4 test points (`js-4/t8/8.js`)
 
 <!-- metropolia:progress:end -->
