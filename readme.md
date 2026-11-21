@@ -11,7 +11,7 @@ as the course material asks. Upload the module folders to users.metropolia.fi an
 - JS modules 1 and 2: https://users.metropolia.fi/~jusspaal/webdev/js-1-2/
 - JS module 3: https://users.metropolia.fi/~jusspaal/webdev/js-3/
 - JS module 4: https://users.metropolia.fi/~jusspaal/webdev/js-4/
-- JS module 5: https://users.metropolia.fi/~jusspaal/webdev/js-5/
+- JS module 5: https://users.metropolia.fi/~jusspaal/webdev/flask/
 
 - Github pages: https://jussipaalanen.github.io/webdev/html-css/index.html
                 https://jussipaalanen.github.io/webdev/html-css/screenshots.html
