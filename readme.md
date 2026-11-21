@@ -65,4 +65,9 @@ _This list is updated automatically by the Metropolia ICT extension._
 - 7. Hover effect: ✔ completed, 2/2 test points (`js-4/t7/7.js`)
 - 8. Calculator: ✘ not completed yet, 0/4 test points (`js-4/t8/8.js`)
 
+### Python Flask server (14 / 20 points)
+
+- 1. Prime number service: ✔ completed, 1/1 test points (`flask/`)
+- 2. English-Finnish dictionary: ✔ completed, 1/1 test points (`flask/`)
+
 <!-- metropolia:progress:end -->
